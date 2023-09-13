@@ -4,12 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class modelo_de_caja extends AppCompatActivity {
+public class Ejercicio_septiembre_12 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_modelo_de_caja);
+        setContentView(R.layout.activity_ejercicio_septiembre12);
     }
-
 }
