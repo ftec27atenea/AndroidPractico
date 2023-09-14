@@ -19,6 +19,8 @@ import java.util.ArrayList;
 
         ArrayList<ListDomain> listDomains;
 
+        public NewsAdapter(ArrayList<ListDomain> listDomains) {this.listDomains = listDomains;}
+
         @NonNull
         @Override
         public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
